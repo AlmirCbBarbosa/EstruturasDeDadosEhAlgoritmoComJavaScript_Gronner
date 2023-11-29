@@ -1,0 +1,12 @@
+{
+  "name": "estruturasdedadosehalgoritmocomjavascript_gronner",
+  "version": "1.0.0",
+  "description": "Projeto para testar e praticasr algorítmos de estruturas de dados do livro: Estrura de Dados e Algorítimos com JavaScript.",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Almir de Lima Barbosa",
+  "license": "ISC"
+}
