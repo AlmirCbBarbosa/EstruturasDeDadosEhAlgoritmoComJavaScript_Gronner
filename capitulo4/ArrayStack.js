@@ -1,9 +1,9 @@
 {//Descrição da atividade
 /*Implementação de estrutura de dados Stack (pilha) com base em uma array
 
-Será criado a classe stack com os seguintes métodos:
-    -push -> Adiciona um elemento no topo da pilha;
-    -pop -> remove o elemento do topo da pilha;
+Será criado a classe stack com os seguintes métodos: 
+    -push -> Adiciona um elemento no topo da pilha; (funcionalidade básica)
+    -pop -> remove o elemento do topo da pilha; (funcionalidade básica)
     -peek -> Informa o elemento que esta no topo da pilha;
     -isEmpty -> verifica se a pilha esta vazia;
     -size -> informa a quantidade de elementos da pilha;
@@ -41,7 +41,10 @@ class ArrayStack{
     clear(){
         this.items = [];
     }
-}
 
+    listItems(){
+        return this.items;
+    }
+}
 
 export default ArrayStack;
